@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+}
+
+:root {
+    --font: Inter;
+    --fontcolor: #000000;
+    --bcgcolorbutton: #F50E30;
+    --buttonfontcolor: #FFFFFF;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+.header {
+position: relative;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 28px;
+}
+
+.main-logo {
+    width: 60px;
+    margin: 0px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+.menu-header {
+    display: flex;
+    margin-left: 170px;
+    padding: 0px;
+    gap: 47px;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.link-list-menu {
+    text-decoration: none;
+    color: var(--fontcolor);
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu-contacts {
+    display: flex;
+    margin-left: 99px;
+    gap: 12px;  
+    padding: 0px;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 29px;
+}
+.phone-number { 
+    text-decoration: none;
+    color: var(--fontcolor);
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.hero {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero::after {
+    content: url(jpg/car.png);
+    position: absolute;
+    display: inline-block;
+    width: 816px;
+    height: 417px;
+    top: 216px;
+    right: 0px;
+}
+
+.main-offer {
+    width: 670px;
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+    font-style: normal;
+    color: var(--fontcolor);
+    line-height: 1.2;
+
+    margin-top: 121px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+.description-offer {
+    max-width: 580px;
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--fontcolor);
+    font-style: normal;
+    line-height: 1.6;
+    margin-left: 2px;
+}
+
+.button {
+    width: 312px;
+    height: 64px;
+    background-color: var(--bcgcolorbutton);
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--buttonfontcolor);
+    border: none;
+    border-radius: 8px;
+    margin-top: 44px;
+    margin-left: 2px;
+
+}
+/*                              HELP                          */
+.help {
+    padding: 1px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.help-offer {
+    width: 1014px;
+    height: 108px;
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 1.3;
+    font-style: normal; 
+    text-align: center;
+    color: var(--fontcolor);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 129px;
+}
+.description-help {
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal; 
+    text-align: center;
+    color: var(--fontcolor);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+.button-help {
+    width: 235px;
+    height: 56px;
+
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: normal; 
+    text-align: center;
+}
