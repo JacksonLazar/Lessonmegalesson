@@ -55,11 +55,11 @@ margin-top: 28px;
     margin: 0px;
 }
 
-.nav-header {
+.nav__header {
     display: flex;
     align-items: center;
 }
-.menu-header {
+.menu__header {
     display: flex;
     margin-left: 170px;
     padding: 0px;
@@ -78,7 +78,7 @@ margin-top: 28px;
     font-size: 14px;
 }
 
-.menu-contacts {
+.menu__contacts {
     display: flex;
     margin-left: 99px;
     gap: 12px;  
@@ -95,7 +95,7 @@ margin-top: 28px;
     justify-content: space-between;
     margin-left: 29px;
 }
-.phone-number { 
+.phone__number { 
     text-decoration: none;
     color: var(--fontcolor);
     font-family: var(--font), Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@ margin-top: 28px;
     right: 0px;
 }
 
-.main-offer {
+.hero__offer {
     width: 670px;
     font-family: var(--font), Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -144,7 +144,7 @@ margin-top: 28px;
     margin-left: 2px;
 }
 
-.description-offer {
+.dhero__description {
     max-width: 580px;
     font-family: var(--font), Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -178,7 +178,7 @@ margin-top: 28px;
     margin-right: auto;
     text-align: center;
 }
-.help-offer {
+.help__offer {
     width: 1014px;
     height: 108px;
     font-family: var(--font), Arial, Helvetica, sans-serif;
@@ -193,7 +193,7 @@ margin-top: 28px;
     margin-right: auto;
     margin-top: 129px;
 }
-.description-help {
+.help__description {
     font-family: var(--font), Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
