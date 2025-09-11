@@ -55,18 +55,18 @@ margin-top: 28px;
     margin: 0px;
 }
 
-.nav__header {
+.nav-header {
     display: flex;
     align-items: center;
 }
-.menu__header {
+.menu-header {
     display: flex;
     margin-left: 170px;
     padding: 0px;
     gap: 47px;
 }
 
-.menu-list {
+.menu-header__list{
     list-style-type: none;
 }
 
@@ -78,14 +78,14 @@ margin-top: 28px;
     font-size: 14px;
 }
 
-.menu__contacts {
+.menu-contacts {
     display: flex;
     margin-left: 99px;
     gap: 12px;  
     padding: 0px;
 }
 
-.contacts-list {
+.menu-contacts__list {
     list-style-type: none;
 }
 
@@ -144,7 +144,7 @@ margin-top: 28px;
     margin-left: 2px;
 }
 
-.dhero__description {
+.hero__description {
     max-width: 580px;
     font-family: var(--font), Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -215,4 +215,42 @@ margin-top: 28px;
     font-size: 20px;
     font-style: normal; 
     text-align: center;
+}
+
+.options {
+    display: flex;
+    gap: 1.9%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.options__conteiner {
+    width: 411px;
+}
+
+.options__offer {
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    font-style: normal; 
+    color: var(--fontcolor);
+    margin-left: 32px;
+    margin-bottom: 27px;
+    text-align: start;
+}
+
+.options__description {
+    width: 302px;
+    height: 84px;
+    font-family: var(--font), Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    font-style: normal; 
+    color: var(--fontcolor);
+    text-align: start;
+    margin-left: 32px;
+    
 }
