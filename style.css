@@ -60,7 +60,7 @@ body {
     display: flex;
     /* margin-left: 170px; */
     padding: 0px;
-    gap: 40px;
+    gap: 38px;
 }
 
 .nav__list {
@@ -230,6 +230,7 @@ body {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    list-style-type: none;
 }
 
 .options__conteiner {
