@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css"> 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="svg/sprite.svg">
 </head>
 <body class="page__body">
     <header class="header">
@@ -46,32 +45,24 @@
                 <ol class="menu-contacts">
                     <li class="menu-contacts__list">
                         <a href="#" class="contacts-link">
-                            <svg class="social__icon"   viewBox="0 0 31 30" width="31" height="30">
+                            <svg class="social__icon" width="31" height="30" viewBox="0 0 31 30">
                                 <use href="img/sprite.svg#social-telegram"></use>
                             </svg>
                         </a>
                     </li>
-                        <span class="visually-hidden">ссылка на чат в телеграмм</span>
+                    <span class="visually-hidden">ссылка на чат в телеграмм</span>
                     <li class="menu-contacts__list">
                         <a href="#" class="contacts-link">
-                            <svg class="social__icon" viewBox="0 0 31 30" width="31" height="30">
-                                <use href="img/sprite.svg#social-telegram"></use>
+                            <svg class="social__icon" width="31" height="30" viewBox="0 0 31 30">
+                                <use href="img/sprite.svg#social-whatsapp"></use>
                             </svg>
                         </a>
                     </li>
                     <span class="visually-hidden">ссылка на сайт вотсап</span>
                     <li class="menu-contacts__list">
                         <a href="#" class="contacts-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
-                                <circle cx="15.9688" cy="15" r="15" fill="black"/>
-                                <g clip-path="url(#clip0_274_789)">
-                                    <path d="M24.2672 9.75345C23.6174 8.98107 22.4178 8.66602 20.1268 8.66602H11.8105C9.46709 8.66602 8.24716 9.0014 7.59985 9.82371C6.96875 10.6255 6.96875 11.8068 6.96875 13.4418V16.558C6.96875 19.7255 7.71755 21.3337 11.8105 21.3337H20.1269C22.1136 21.3337 23.2145 21.0557 23.9267 20.3741C24.6571 19.6751 24.9688 18.5338 24.9688 16.558V13.4418C24.9688 11.7175 24.9199 10.5292 24.2672 9.75345ZM18.5248 15.4301L14.7484 17.4038C14.664 17.4479 14.5717 17.4698 14.4795 17.4698C14.3751 17.4698 14.2709 17.4417 14.1786 17.3859C14.0049 17.2806 13.8988 17.0923 13.8988 16.8892V12.9545C13.8988 12.7517 14.0046 12.5636 14.178 12.4583C14.3514 12.3529 14.5671 12.3457 14.7471 12.4392L18.5235 14.4002C18.7156 14.4999 18.8363 14.6983 18.8366 14.9147C18.8368 15.1313 18.7167 15.3299 18.5248 15.4301Z" fill="white"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_274_789">
-                                        <rect width="18" height="18" fill="white" transform="translate(6.96875 6)"/>
-                                    </clipPath>
-                                </defs>
+                            <svg class="social__icon" width="31" height="30" viewBox="0 0 31 30">
+                                <use href="img/sprite.svg#social-youtube"></use>
                             </svg>
                         </a>
                     </li>
@@ -88,7 +79,7 @@
     <section class="hero">
         <h2 class="hero__offer">Купите автомобиль дешевле на 60%*</h2>
         <p class="hero__description">Привезем автомобиль под ключ со всеми документами. Подбор автомобиля под любой запрос  БЕСПЛАТНО</p>
-        <button class="button" type="button">Оставить заявку</button>
+        <button class="button hero__button" type="button">Оставить заявку</button>
     </section>
 
     <section class="help">
@@ -102,7 +93,7 @@
             </li>
             <li class="options__conteiner new">
                 <h2 class="options__offer">Новые</h2>
-                <p class="options__description">Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной ценына Авито и Авто.ру</p>
+                <p class="options__description">Предлагаем Вам купить автомобиль дешевле до 60%, от рыночной цены на Авито и Авто.ру</p>
             </li>
             <li class="options__conteiner budjet">
                 <h2 class="options__offer">Под ваш бюджет</h2>
@@ -110,5 +101,21 @@
             </li>    
         </ul>
     </section>
+
+    <section class="about">
+        <div class="about__container"></div>
+        <div class="about__information">
+            <h2 class="about__title">О нас</h2>
+            <p class="about__discription">Мы автосалон и официальный партнер крупнейших мировых авто-аукционов: IAA (Insurance Auto Auction), Copart, Manheim.</p>
+            <ul class="about__list">
+                <li class="about__item item1">Работаем без посредников</li>
+                <li class="about__item item2">Успешный опыт 10 лет</li>
+                <li class="about__item item3">Отлаженная логистика</li>
+            </ul>
+    
+        </div>
+    </section>
+
+
 </body>
 </html>
